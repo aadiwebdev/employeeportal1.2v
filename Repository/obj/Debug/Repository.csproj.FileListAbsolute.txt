@@ -18,3 +18,17 @@ C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Fac
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Repository\obj\Debug\Repository.csproj.CopyComplete
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Repository\obj\Debug\Repository.dll
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Repository\obj\Debug\Repository.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\bin\Debug\Repository.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\bin\Debug\Repository.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\bin\Debug\Domain.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\bin\Debug\System.Data.SqlClient.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\bin\Debug\System.Security.AccessControl.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\bin\Debug\System.Security.Permissions.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\bin\Debug\Domain.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\obj\Debug\Repository.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Repository\obj\Debug\Repository.pdb

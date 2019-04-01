@@ -27,6 +27,12 @@
         public static string _validateMinMaxChars = @".{8,15}";
         public static string _validateLowerCase = @"[a-z]+";
         public static string _validateSpecialSymbols = @"[!@#$%^&*()_+=\[{\]};:<>|./?,-]";
+        public static string _insertCommand = "INSERT into UserInfo(FirstName,LastName,EmailAddress,Password,IsStudent) values(@FirstName,@LastName,@EmailAddress,@Password,@IsStudent)";
+        public static string _validateLoginQuery = "SELECT COUNT(*) FROM UserInfo WHERE EmailAddress = @EmailAddress and Password = @Password COLLATE Latin1_General_100_CS_AS";
+        public static string _alreadyUserRegisteredQuery = "SELECT COUNT(*) FROM UserInfo WHERE EmailAddress = @EmailAddress";
+        public static string _getUserQuery = "SELECT* FROM USERINFO WHERE IsStudent ='yes'";
+        public static string _getOthersQuery = "SELECT* FROM USERINFO WHERE IsStudent ='no'";
+        public static string _getAllQuery = "SELECT* FROM USERINFO";
 
 
     }

@@ -56,14 +56,5 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringLiterals\StringLiterals.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DataLayer\DataLayer.csproj">
-      <Project>{1a6ee2ba-4c1b-4de9-ae5c-062a6f5599a0}</Project>
-      <Name>DataLayer</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

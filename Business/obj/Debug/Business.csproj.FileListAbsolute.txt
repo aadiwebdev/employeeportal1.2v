@@ -20,3 +20,14 @@ C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Fac
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\obj\Debug\Business.csproj.CopyComplete
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\obj\Debug\Business.dll
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\obj\Debug\Business.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Business\obj\Debug\Business.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Business\obj\Debug\Business.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Business\bin\Debug\Business.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Business\bin\Debug\Business.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Business\bin\Debug\Domain.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Business\bin\Debug\Repository.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Business\bin\Debug\Domain.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Business\bin\Debug\Repository.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Business\obj\Debug\Business.csproj.CopyComplete

@@ -63,6 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataSource.cs" />
+    <Compile Include="Factory\IAuthenticationRepo.cs" />
+    <Compile Include="Factory\IUserRepo.cs" />
+    <Compile Include="Factory\RepositoryFactory.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -73,10 +76,6 @@
     <Compile Include="AuthenticationRepo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataLayer\DataLayer.csproj">
-      <Project>{1a6ee2ba-4c1b-4de9-ae5c-062a6f5599a0}</Project>
-      <Name>DataLayer</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{52794312-efa6-43a5-8007-fbe98c724be4}</Project>
       <Name>Domain</Name>

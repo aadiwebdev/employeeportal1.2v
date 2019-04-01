@@ -13,7 +13,7 @@ namespace Domain
         /// </summary>
         /// <param name="modelType"></param>
         /// <returns></returns>
-        public static  Model getModel(ModelSelection modelType)
+        public static  Model GetModel(ModelSelection modelType)
         {
             Model model = null;
           if (modelType.Equals(ModelSelection.Login))

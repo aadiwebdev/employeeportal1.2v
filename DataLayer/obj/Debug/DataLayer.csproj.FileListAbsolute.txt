@@ -3,3 +3,9 @@ C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Fac
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\DataLayer\obj\Debug\DataLayer.dll
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\DataLayer\obj\Debug\DataLayer.pdb

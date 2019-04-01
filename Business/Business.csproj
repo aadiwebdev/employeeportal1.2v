@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AuthenticationBusiness.cs" />
+    <Compile Include="Factory\BusinessFactory.cs" />
+    <Compile Include="Factory\IUserBusiness.cs" />
+    <Compile Include="Factory\IAuthenticationBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserBusiness.cs" />
     <Compile Include="Validations.cs" />

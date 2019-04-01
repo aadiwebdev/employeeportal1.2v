@@ -1,8 +1,7 @@
-﻿using Business;
+﻿using Business.Factory;
 using Domain;
 using Domain.Enums;
 using Domain.Interfaces;
-using Domain.Models;
 using Domain.StringLiterals;
 using System;
 using System.Collections.Generic;
@@ -13,8 +12,8 @@ namespace ConApp
 {
     class Menu
     {
-        private UserBusiness _userBusiness;
-        private AuthenticationBusiness _authBusiness;
+        private IUserBusiness _userBusiness;
+        private IAuthenticationBusiness _authBusiness;
         private Model _model;
         private string _firstName;
         private string _lastName;
@@ -24,10 +23,10 @@ namespace ConApp
         private string _isStudent;
         public Menu()
         {
-            _authBusiness = new AuthenticationBusiness();
-            _userBusiness = new UserBusiness();
+            _authBusiness = BusinessFactory.GetAuthentication();
+            _userBusiness = BusinessFactory.GetUserBusiness();
         }
-        
+
 
         /// <summary>
         /// For displaying user details
@@ -100,11 +99,11 @@ namespace ConApp
         /// <returns></returns>
         public Model ReadLoginData()
         {
-            Console.WriteLine("\nEnter Email address..\n");
+            Console.Write("\nEnter Email address.. :-");
             _emailAddress = Console.ReadLine();
-            Console.WriteLine("\nEnter Password..\n");
+            Console.Write("\nEnter Password.. :- ");
             _password = GetPassword().ToPlainString();
-            _model = ModelFactory.getModel(ModelSelection.Login);
+            _model = ModelFactory.GetModel(ModelSelection.Login);
             _model.EmailAddress = _emailAddress;
             _model.Password = _password;
             return _model;
@@ -115,19 +114,19 @@ namespace ConApp
         /// <returns></returns>
         public Model ReadRegisterData()
         {
-            Console.WriteLine("\nEnter First Name");
+            Console.Write("\nEnter First Name:- ");
             _firstName = Console.ReadLine();
-            Console.WriteLine("\nEnter Last Name");
+            Console.Write("\nEnter Last Name:- ");
             _lastName = Console.ReadLine();
-            Console.WriteLine("\nEnter Email Address");
+            Console.Write("\nEnter Email Address:-");
             _emailAddress = Console.ReadLine();
-            Console.WriteLine("\nEnter Password");
+            Console.Write("\nEnter Password:-");
             _password = GetPassword().ToPlainString();
-            Console.WriteLine("\nEnter ConfirmPassword");
+            Console.Write("\nEnter ConfirmPassword:- ");
             _confirmPassword = GetPassword().ToPlainString();
-            Console.WriteLine("\nAre you a Student or Not.");
+            Console.Write("\nAre you a Student or Not (yes|no) :-");
             _isStudent = Console.ReadLine().ToLower();
-            _model = ModelFactory.getModel(ModelSelection.Register);
+            _model = ModelFactory.GetModel(ModelSelection.Register);
             _model.FirstName = _firstName;
             _model.LastName = _lastName;
             _model.EmailAddress = _emailAddress;
@@ -135,6 +134,63 @@ namespace ConApp
             _model.ConfirmPassword = _confirmPassword;
             _model.IsStudent = _isStudent;
             return _model;
+        }
+        /// <summary>
+        /// It is to process the request given by the user based on the choice selected by him.
+        /// </summary>
+        /// <param name="choice"></param>
+        public void ProcessRequest()
+        {
+            string message = string.Empty;
+            while (true)
+            {
+                Console.WriteLine("\nWelcome to GGK Technologies!!!!!!!!!!");
+                Console.WriteLine("\n1.User Login\n");
+                Console.WriteLine("\n2.User Registration\n");
+                Console.WriteLine("\n3.Get User Details\n");
+                Console.Write("\nEnter Your Choice:- ");
+                int choice = int.Parse(Console.ReadLine());
+                switch (choice)
+                {
+                    case (int)UserSelectionChoice.Login:
+                        _model = ReadLoginData();
+                        message = ValidateLogin(_model);
+                        if (!message.Equals(StringLiterals._success))
+                        {
+                            Console.WriteLine("\n\n"+message);
+                        }
+                        else
+                        {
+                            Console.WriteLine("\n\n"+StringLiterals._loginSuccess);
+                        }
+                        break;
+                    case (int)UserSelectionChoice.Register:
+
+                        _model = ReadRegisterData();
+                        message = RegisterUser(_model);
+                        if (!message.Equals(StringLiterals._success))
+                        {
+                            Console.WriteLine("\n\n"+message);
+                        }
+                        else
+                        {
+                            Console.WriteLine("\n\n"+StringLiterals._registrationSuccess);
+                        }
+                        break;
+
+                    case (int)UserSelectionChoice.GetUserDetails:
+
+                        Console.Write("\nEnter Choice 1 =>Users 2=>Others 3=>All:- ");
+                        int userChoice = int.Parse(Console.ReadLine());
+                        List<Model> usersList = DisplayUsers((UserRoleChoice)userChoice);
+                        foreach (var users in usersList)
+                        {
+                            Console.WriteLine("\nThe employee name is :" + users.FirstName + users.LastName);
+                            Console.WriteLine("\nThe Employee email address is :" + users.EmailAddress);
+                        }
+                        break;
+                }
+            }
         }
 
     }

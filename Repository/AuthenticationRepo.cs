@@ -1,14 +1,12 @@
-﻿using Domain;
-using Domain.Enums;
+﻿using Domain.StringLiterals;
+using System.Configuration;
+using System.Data.SqlClient;
 using Domain.Interfaces;
-using Domain.Models;
-using Domain.StringLiterals;
-using System;
-using System.Linq;
+using Repository.Factory;
 
 namespace Repository
 {
-    public class AuthenticationRepo
+    public class AuthenticationRepo:IAuthenticationRepo
     {
         /// <summary>
         /// It is used to validate login
@@ -17,11 +15,16 @@ namespace Repository
         /// <returns></returns>
         public string ValidateLogin(Model loginModel)
         {
-            if (DataSource._userList.Any(m => m.EmailAddress == loginModel.EmailAddress && m.Password == loginModel.Password))
+            using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["employeeportal"].ConnectionString))
             {
-                return StringLiterals._success;
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(StringLiterals._validateLoginQuery, connection))
+                {
+                    command.Parameters.AddWithValue("@EmailAddress", loginModel.EmailAddress);
+                    command.Parameters.AddWithValue("@Password", loginModel.Password);
+                    return  (int)command.ExecuteScalar()==1 ? StringLiterals._loginSuccess : StringLiterals._loginFailed;
+                }
             }
-            return StringLiterals._loginFailed;
         }
         /// <summary>
         /// It is used to register user.
@@ -30,75 +33,21 @@ namespace Repository
         /// <returns></returns>
         public string RegisterUser(Model registrationModel)
         {
-           Model userModel = registrationModel.GetMappedObject();
-            Console.WriteLine("The value is :" + userModel.FirstName);
-            if (!DataSource._userList.Any(m => m.EmailAddress == userModel.EmailAddress))
+            Model  userModel = registrationModel.GetMappedObject();
+            if (!IsAlreadyRegistered(userModel))
             {
-               DataSource._userList.Add(userModel);
-                return StringLiterals._success;
-            }
-            return StringLiterals._registrationFailed;
-        }
-    }
-}
-
-
-
-
-using Domain.StringLiterals;
-using System.Linq;
-using System;
-using Domain.Models;
-using System.Data.SqlClient;
-
-namespace Repository
-{
-    public class AuthenticationRepo
-    {
-        /// <summary>
-        /// It is used to validate login
-        /// </summary>
-        /// <param name="loginModel"></param>
-        /// <returns></returns>
-        public string ValidateLogin(LoginModel loginModel)
-        {
-            using (SqlConnection connection = new SqlConnection(StringLiterals._connectionString))
-            {
-                connection.Open();
-                using (SqlCommand cmd = new SqlCommand(StringLiterals._validateLoginQuery, connection))
-                {
-                    cmd.Parameters.AddWithValue("@EmailAddress", loginModel.EmailAddress);
-                    cmd.Parameters.AddWithValue("@Password", loginModel.Password);
-                    if (cmd.ExecuteReader().HasRows)
-                    {
-                        return StringLiterals._success;
-                    }
-                }
-            }
-            return StringLiterals._loginFailed;
-        }
-        /// <summary>
-        /// It is used to register user.
-        /// </summary>
-        /// <param name="registrationModel"></param>
-        /// <returns></returns>
-        public string RegisterUser(RegistrationModel registrationModel)
-        {
-            DataLayer.UserModel userModel = registrationModel.GetMappedObject();
-            if (!IsAlreadyRegistered(registrationModel))
-            {
-                using (SqlConnection connection = new SqlConnection(StringLiterals._connectionString))
+                using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["employeeportal"].ConnectionString))
                 {
                     connection.Open();
-                    using (SqlCommand cmd = new SqlCommand(StringLiterals._insertCommand, connection))
+                    using (SqlCommand command = new SqlCommand(StringLiterals._insertCommand, connection))
                     {
-                        Console.WriteLine(userModel.FirstName);
-                        cmd.Parameters.AddWithValue("@FirstName", userModel.FirstName);
-                        cmd.Parameters.AddWithValue("@LastName", userModel.LastName);
-                        cmd.Parameters.AddWithValue("@EmailAddress", userModel.EmailAddress);
-                        cmd.Parameters.AddWithValue("@Password", userModel.Password);
-                        cmd.Parameters.AddWithValue("@IsStudent", userModel.IsStudent);
-                        if (cmd.ExecuteNonQuery() >= 1)
+
+                        command.Parameters.AddWithValue("@FirstName", userModel.FirstName);
+                        command.Parameters.AddWithValue("@LastName", userModel.LastName);
+                        command.Parameters.AddWithValue("@EmailAddress", userModel.EmailAddress);
+                        command.Parameters.AddWithValue("@Password", userModel.Password);
+                        command.Parameters.AddWithValue("@IsStudent", userModel.IsStudent);
+                        if (command.ExecuteNonQuery() >= 1)
                         {
                             return StringLiterals._success;
                         }
@@ -112,23 +61,17 @@ namespace Repository
         /// </summary>
         /// <param name="registrationModel"></param>
         /// <returns></returns>
-        private bool IsAlreadyRegistered(RegistrationModel registrationModel)
+        public  bool IsAlreadyRegistered(Model registrationModel)
         {
-            SqlDataReader sdr;
-            using (SqlConnection connection = new SqlConnection(StringLiterals._connectionString))
+            using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["employeeportal"].ConnectionString))
             {
                 connection.Open();
                 using (SqlCommand command = new SqlCommand(StringLiterals._alreadyUserRegisteredQuery, connection))
                 {
                     command.Parameters.AddWithValue("@EmailAddress", registrationModel.EmailAddress);
-                    sdr = command.ExecuteReader();
-                    if (sdr.HasRows)
-                    {
-                        return true;
-                    }
+                    return (int)command.ExecuteScalar() > 0 ? true : false;  
                 }
             }
-            return false;
         }
     }
 }

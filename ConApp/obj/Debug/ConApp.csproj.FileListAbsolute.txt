@@ -26,3 +26,17 @@ C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Fac
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\obj\Debug\ConApp.csproj.CopyComplete
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\obj\Debug\ConApp.exe
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\obj\Debug\ConApp.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\bin\Debug\ConApp.exe.config
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\bin\Debug\ConApp.exe
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\bin\Debug\ConApp.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\bin\Debug\Business.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\bin\Debug\Domain.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\bin\Debug\Repository.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\bin\Debug\Business.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\bin\Debug\Domain.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\bin\Debug\Repository.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\obj\Debug\ConApp.csprojResolveAssemblyReference.cache
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\obj\Debug\ConApp.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\obj\Debug\ConApp.csproj.CopyComplete
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\obj\Debug\ConApp.exe
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\ConApp\obj\Debug\ConApp.pdb

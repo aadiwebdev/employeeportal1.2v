@@ -1,17 +1,16 @@
-﻿using Domain.Interfaces;
-using Domain.Models;
+﻿using Business.Factory;
+using Domain.Interfaces;
 using Domain.StringLiterals;
-using Repository;
-using System;
+using Repository.Factory;
 
 namespace Business
 {
-    public class AuthenticationBusiness
+    public class AuthenticationBusiness : IAuthenticationBusiness
     {
-        AuthenticationRepo authRepo;
+        IAuthenticationRepo _authRepo;
         public AuthenticationBusiness()
         {
-            authRepo = new AuthenticationRepo();
+            _authRepo = RepositoryFactory.GetAuthenticationRepo();
 
         }
         /// <summary>
@@ -25,7 +24,7 @@ namespace Business
             {
                 if (Validations.ValidatePassword(loginModel.Password).Equals(StringLiterals._success))
                 {
-                    return authRepo.ValidateLogin(loginModel);
+                    return _authRepo.ValidateLogin(loginModel);
                 }
                 return Validations.ValidatePassword(loginModel.Password);
             }
@@ -42,7 +41,7 @@ namespace Business
             {
                 if (Validations.ValidatePassword(registrationModel.Password).Equals(StringLiterals._success))
                 {
-                    return authRepo.RegisterUser(registrationModel);
+                    return _authRepo.RegisterUser(registrationModel);
                 }
                 return Validations.ValidatePassword(registrationModel.Password);
             }

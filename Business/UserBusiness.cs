@@ -1,14 +1,14 @@
-﻿using Domain.Models;
-using System.Collections.Generic;
-using Repository;
+﻿using System.Collections.Generic;
 using Domain.Enums;
 using Domain.Interfaces;
+using Business.Factory;
+using Repository.Factory;
 
 namespace Business
 {
-    public class UserBusiness
+    public class UserBusiness : IUserBusiness
     {
-        UserRepo userRepo = new UserRepo();
+        IUserRepo _userRepo = RepositoryFactory.GetUserRepo();
         /// <summary>
         /// It is used to retrieve the details of userlist
         /// </summary>
@@ -16,7 +16,7 @@ namespace Business
         /// <returns></returns>
         public List<Model> GetUserDetails(UserRoleChoice userRoleChoice)
         {
-            return userRepo.GetUserDetails(userRoleChoice);
+            return _userRepo.GetUserDetails(userRoleChoice);
         }
     }
 }

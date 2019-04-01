@@ -1,24 +1,10 @@
-﻿/*using Domain.Interfaces;
-using Domain.Models;
+﻿using Domain.Interfaces;
 using System.Collections.Generic;
 
 namespace Repository
 {
     class DataSource
     {
-        public static List<Model> _userList = new List<Model>();  
-    }
-}
-*/
-
-
-using DataLayer;
-using System.Collections.Generic;
-
-namespace Repository
-{
-    class DataSource
-    {
-        public static List<UserModel> _userList = new List<UserModel>();
+        public static List<Model> _userList = new List<Model>();
     }
 }

@@ -13,3 +13,9 @@ C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Fac
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Domain\obj\Debug\Domain.csproj.CopyComplete
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Domain\obj\Debug\Domain.dll
 C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Domain\obj\Debug\Domain.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Domain\bin\Debug\Domain.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Domain\bin\Debug\Domain.pdb
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Domain\obj\Debug\Domain.dll
+C:\Users\TEMP\Desktop\employeeportal1.2v-master\Domain\obj\Debug\Domain.pdb
