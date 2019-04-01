@@ -1,0 +1,22 @@
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Business\bin\Debug\Business.dll
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Business\bin\Debug\Business.pdb
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Business\bin\Debug\Domain.dll
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Business\bin\Debug\Repository.dll
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Business\bin\Debug\Domain.pdb
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Business\bin\Debug\Repository.pdb
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Business\obj\Debug\Business.dll
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Business\obj\Debug\Business.pdb
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\bin\Debug\Business.dll
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\bin\Debug\Business.pdb
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\bin\Debug\Domain.dll
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\bin\Debug\Repository.dll
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\bin\Debug\Domain.pdb
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\bin\Debug\Repository.pdb
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\obj\Debug\Business.dll
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Business\obj\Debug\Business.pdb

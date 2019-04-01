@@ -1,0 +1,15 @@
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Domain\bin\Debug\Domain.dll
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Domain\bin\Debug\Domain.pdb
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Domain\obj\Debug\Domain.dll
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\Domain\obj\Debug\Domain.pdb
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Domain\bin\Debug\Domain.dll
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Domain\bin\Debug\Domain.pdb
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Domain\bin\Debug\DataLayer.dll
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Domain\bin\Debug\DataLayer.pdb
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Domain\obj\Debug\Domain.dll
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\Domain\obj\Debug\Domain.pdb

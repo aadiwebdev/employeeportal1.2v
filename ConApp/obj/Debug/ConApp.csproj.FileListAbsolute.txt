@@ -1,0 +1,28 @@
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\obj\Debug\ConApp.csprojAssemblyReference.cache
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\obj\Debug\ConApp.csproj.CoreCompileInputs.cache
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\bin\Debug\ConApp.exe.config
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\bin\Debug\ConApp.exe
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\bin\Debug\ConApp.pdb
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\bin\Debug\Business.dll
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\bin\Debug\Domain.dll
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\bin\Debug\Repository.dll
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\bin\Debug\Business.pdb
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\bin\Debug\Domain.pdb
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\bin\Debug\Repository.pdb
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\obj\Debug\ConApp.csproj.CopyComplete
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\obj\Debug\ConApp.exe
+C:\Users\aditya.tangirala\source\repos\EmployeePortal\ConApp\obj\Debug\ConApp.pdb
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\bin\Debug\ConApp.exe.config
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\bin\Debug\ConApp.exe
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\bin\Debug\ConApp.pdb
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\bin\Debug\Business.dll
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\bin\Debug\Domain.dll
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\bin\Debug\Repository.dll
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\bin\Debug\Business.pdb
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\bin\Debug\Domain.pdb
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\bin\Debug\Repository.pdb
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\obj\Debug\ConApp.csprojAssemblyReference.cache
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\obj\Debug\ConApp.csproj.CoreCompileInputs.cache
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\obj\Debug\ConApp.csproj.CopyComplete
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\obj\Debug\ConApp.exe
+C:\Users\AdItYaSaI\Downloads\Compressed\ggk-master\ggk-master\EmployeePortal(Factory Method)\ConApp\obj\Debug\ConApp.pdb
